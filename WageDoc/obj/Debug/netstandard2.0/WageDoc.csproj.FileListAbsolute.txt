@@ -1,0 +1,14 @@
+C:\Users\shervin\Desktop\Repo\WageDoc\WageDoc\WageDoc\bin\Debug\netstandard2.0\WageDoc.deps.json
+C:\Users\shervin\Desktop\Repo\WageDoc\WageDoc\WageDoc\bin\Debug\netstandard2.0\WageDoc.dll
+C:\Users\shervin\Desktop\Repo\WageDoc\WageDoc\WageDoc\bin\Debug\netstandard2.0\ref\WageDoc.dll
+C:\Users\shervin\Desktop\Repo\WageDoc\WageDoc\WageDoc\bin\Debug\netstandard2.0\WageDoc.pdb
+C:\Users\shervin\Desktop\Repo\WageDoc\WageDoc\WageDoc\obj\Debug\netstandard2.0\WageDoc.csprojAssemblyReference.cache
+C:\Users\shervin\Desktop\Repo\WageDoc\WageDoc\WageDoc\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\shervin\Desktop\Repo\WageDoc\WageDoc\WageDoc\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\shervin\Desktop\Repo\WageDoc\WageDoc\WageDoc\obj\Debug\netstandard2.0\WageDoc.AssemblyInfoInputs.cache
+C:\Users\shervin\Desktop\Repo\WageDoc\WageDoc\WageDoc\obj\Debug\netstandard2.0\WageDoc.AssemblyInfo.cs
+C:\Users\shervin\Desktop\Repo\WageDoc\WageDoc\WageDoc\obj\Debug\netstandard2.0\WageDoc.csproj.CoreCompileInputs.cache
+C:\Users\shervin\Desktop\Repo\WageDoc\WageDoc\WageDoc\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\shervin\Desktop\Repo\WageDoc\WageDoc\WageDoc\obj\Debug\netstandard2.0\WageDoc.dll
+C:\Users\shervin\Desktop\Repo\WageDoc\WageDoc\WageDoc\obj\Debug\netstandard2.0\ref\WageDoc.dll
+C:\Users\shervin\Desktop\Repo\WageDoc\WageDoc\WageDoc\obj\Debug\netstandard2.0\WageDoc.pdb

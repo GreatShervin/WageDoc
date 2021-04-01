@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WageDoc.View.CardViewTemplate"
+             xmlns:local ="clr-namespace:WageDoc.View">
+
+    <Frame IsClippedToBounds="True" HasShadow="True" BackgroundColor="White" CornerRadius="30" HeightRequest="100">
+        <Frame.BorderColor>
+            <OnPlatform x:TypeArguments="Color"
+                        Android="Gray"
+                        iOS ="Gray"/>
+        </Frame.BorderColor>
+        <Frame.Margin>
+            <OnPlatform x:TypeArguments="Thickness"
+                        Android ="7"
+                        iOS ="7"/>
+        </Frame.Margin>
+        <Frame.Padding>
+            <OnPlatform x:TypeArguments="Thickness"
+                        Android ="5"
+                        iOS ="5"/>
+        </Frame.Padding>
+        <StackLayout Orientation="Horizontal">
+            <Grid VerticalOptions="CenterAndExpand" Padding="0" HorizontalOptions="FillAndExpand" BackgroundColor="Transparent">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackLayout Grid.Column="0" Grid.Row="0">
+                    <Image Source="{Binding ProfileImage}" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="100" HeightRequest="100" ></Image>
+                </StackLayout>
+                <StackLayout  Grid.Column="1" Grid.Row="0" VerticalOptions="Center" >
+                    <Label Text="{Binding HeadTitle}" FontSize="Large"/>
+                </StackLayout>
+               
+                
+            </Grid>
+        </StackLayout>
+    </Frame>
+  
+</ContentView>

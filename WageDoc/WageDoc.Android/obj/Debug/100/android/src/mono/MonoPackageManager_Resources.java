@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "WageDoc.Android.dll" comes first in this list. */
 		"WageDoc.Android.dll",
 		"FormsViewGroup.dll",
+		"ImageCircle.Forms.Plugin.dll",
 		"WageDoc.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.v7.CardView.dll",
@@ -60,4 +61,5 @@ public class MonoPackageManager_Resources {
 	};
 	public static String[] Dependencies = new String[]{
 	};
+	public static String ApiPackageName = "Mono.Android.Platform.ApiLevel_29";
 }

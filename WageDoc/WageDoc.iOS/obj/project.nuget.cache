@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "TT9brRez2hLI6aYOhQNWKKYcm5nfigd54Fu+Wz/8nIiWIDU1u5MlR99nBHMREAqMIe7xtQRHH+NbylzPkRQ78A==",
+  "dgSpecHash": "eIWorXnW4rEZuQLt1SRepAwEj3KHjeCp/uOogYRIBdZKiK3vkzTGK3WQEolnZBoXQeZ+jec0Kk1Jj9FbzWO2Gg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Turkikaze\\Desktop\\WageDoc\\WageDoc\\WageDoc.iOS\\WageDoc.iOS.csproj",
+  "projectFilePath": "C:\\Users\\selta\\Documents\\GitHub\\WageDoc\\WageDoc\\WageDoc.iOS\\WageDoc.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Turkikaze\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\selta\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\selta\\.nuget\\packages\\xam.plugins.forms.imagecircle\\3.0.0.5\\xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
+    "C:\\Users\\selta\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\selta\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []
 }

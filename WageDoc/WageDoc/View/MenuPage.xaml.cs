@@ -33,6 +33,10 @@ namespace WageDoc.View
 
             };
             MonthList.ItemsSource = monthsList;
+
+            CurrentPage = Children[1];
+
+
         }
     }
 }

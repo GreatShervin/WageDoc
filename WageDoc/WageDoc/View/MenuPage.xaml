@@ -23,7 +23,7 @@
         </ListView>
         
     </ContentPage>
-    <ContentPage Title="Home" IconImageSource="home.png">
+    <ContentPage Title="Home" IconImageSource="home.png" >
         <ContentPage.BindingContext>
             <viewModel:CardDataViewModel/>
         </ContentPage.BindingContext>
@@ -51,4 +51,6 @@
     <ContentPage Title="Einstellungen" IconImageSource="setting.png">
         
     </ContentPage>
+
+
 </TabbedPage>

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "1fxVQ4Th8b/lDU0uwGHjtJsx8TrJcmvvhtqAMnL87An35C3hjG8gBPHuu51v11e11KAtPii0fmFOAcyaXRLo0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Turkikaze\\Desktop\\WageDoc(05042021)\\WageDoc\\WageDoc.iOS\\WageDoc.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Turkikaze\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Turkikaze\\.nuget\\packages\\xam.plugins.forms.imagecircle\\3.0.0.5\\xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
+    "C:\\Users\\Turkikaze\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\Turkikaze\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\Turkikaze\\.nuget\\packages\\xamforms.controls.calendar\\1.1.1\\xamforms.controls.calendar.1.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

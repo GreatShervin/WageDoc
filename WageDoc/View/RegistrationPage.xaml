@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+     Title="WageDoc Register"
+    BackgroundColor="#147c8c"
+    NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WageDoc.View.RegistrationPage"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin">
+    <ContentPage.Background>
+        <LinearGradientBrush>
+            <GradientStop Color="#003534" Offset="0.0"/>
+            <GradientStop Color="#56776c" Offset="1"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="30" Spacing="40">
+
+            <Image Source="wagedoc.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="200"  ></Image>
+
+            <Label Text="Login" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Start" TextColor="Black"></Label>
+            <StackLayout Orientation="Vertical" Spacing="10">
+
+                <Frame BackgroundColor="Transparent" BorderColor="Black" Padding="0" Margin="0" CornerRadius="50" HorizontalOptions="FillAndExpand" >
+                    <StackLayout Orientation="Horizontal">
+                        <Frame BackgroundColor="AliceBlue" CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7,7,0,7">
+                            <controls:CircleImage Source="profil.png" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></controls:CircleImage>
+                        </Frame>
+
+                        <Entry x:Name="Vorname" Text="" Placeholder="Vorname"   
+                           HeightRequest="40"   
+                           Keyboard="Email"  
+                          />
+
+                    </StackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="Transparent" BorderColor="Black" Padding="0" Margin="0" CornerRadius="50" HorizontalOptions="FillAndExpand" >
+                    <StackLayout Orientation="Horizontal">
+                        <Frame BackgroundColor="AliceBlue" CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7,7,0,7">
+                            <controls:CircleImage Source="profil.png" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></controls:CircleImage>
+                        </Frame>
+
+                        <Entry x:Name="Nachname" Text="" Placeholder="Nachname"   
+                           HeightRequest="40"   
+                           Keyboard="Email"  
+                          />
+
+                    </StackLayout>
+                </Frame>
+
+
+
+                <Frame BackgroundColor="Transparent" BorderColor="Black" Padding="0" Margin="0" CornerRadius="50" HorizontalOptions="FillAndExpand" >
+                    <StackLayout Orientation="Horizontal">
+                        <Frame BackgroundColor="AliceBlue" CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7,7,0,7">
+                            <controls:CircleImage Source="calendar.png" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></controls:CircleImage>
+                        </Frame>
+
+                        <DatePicker x:Name="Geburtsdatum"  ></DatePicker>
+
+                    </StackLayout>
+                </Frame>
+
+
+
+
+
+                <Frame BackgroundColor="Transparent" BorderColor="Black" Padding="0" Margin="0" CornerRadius="50" HorizontalOptions="FillAndExpand" >
+                    <StackLayout Orientation="Horizontal">
+                        <Frame BackgroundColor="AliceBlue" CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7,7,0,7">
+                            <controls:CircleImage Source="email.jpg" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></controls:CircleImage>
+                        </Frame>
+
+                        <Entry x:Name="Email" Text="" Placeholder="Email"   
+                           HeightRequest="40"   
+                           Keyboard="Email"  
+                           TextColor="White"/>
+
+                    </StackLayout>
+                </Frame>
+
+
+
+
+                <Frame BackgroundColor="Transparent" BorderColor="Black" Padding="0" Margin="0" CornerRadius="50" HorizontalOptions="FillAndExpand" >
+                    <StackLayout Orientation="Horizontal">
+                        <Frame BackgroundColor="AliceBlue" CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7,7,0,7">
+                            <controls:CircleImage Source="password.jpg" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></controls:CircleImage>
+                        </Frame>
+                        
+                        
+                        <Entry x:Name="Password" Text="" Placeholder="Password"   
+                           HeightRequest="40"   
+                           IsPassword="True"  
+                           TextColor="White"/>
+
+                    </StackLayout>
+                </Frame>
+
+
+
+
+
+         
+            </StackLayout>
+
+            <Grid RowSpacing="10">
+                <Button x:Name="b1" Clicked="Register_Clicked"  Text="Register"
+                    
+                    VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="1" Grid.Column="0"   CornerRadius="12" BorderColor="#147c8c" TextColor="White" BackgroundColor="#56776c" />
+
+
+                <Button x:Name="b2" Clicked="BackToLogin_Clicked"  Text="Back To Login"
+                    
+                    VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="1" Grid.Column="1"   CornerRadius="12" BorderColor="#147c8c" TextColor="White" BackgroundColor="#56776c"/>
+            </Grid>
+            <ActivityIndicator x:Name="activityIndicator1" IsRunning="{Binding IsBusy}" 
+                    VerticalOptions="Center" HorizontalOptions="Center" Color="Blue" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

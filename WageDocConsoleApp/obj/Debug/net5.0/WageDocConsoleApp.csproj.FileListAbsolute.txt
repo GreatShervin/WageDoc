@@ -1,0 +1,16 @@
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\bin\Debug\net5.0\WageDocConsoleApp.exe
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\bin\Debug\net5.0\WageDocConsoleApp.deps.json
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\bin\Debug\net5.0\WageDocConsoleApp.runtimeconfig.json
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\bin\Debug\net5.0\WageDocConsoleApp.runtimeconfig.dev.json
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\bin\Debug\net5.0\WageDocConsoleApp.dll
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\bin\Debug\net5.0\ref\WageDocConsoleApp.dll
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\bin\Debug\net5.0\WageDocConsoleApp.pdb
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\obj\Debug\net5.0\WageDocConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\obj\Debug\net5.0\WageDocConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\obj\Debug\net5.0\WageDocConsoleApp.AssemblyInfo.cs
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\obj\Debug\net5.0\WageDocConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\obj\Debug\net5.0\WageDocConsoleApp.dll
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\obj\Debug\net5.0\ref\WageDocConsoleApp.dll
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\obj\Debug\net5.0\WageDocConsoleApp.pdb
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\obj\Debug\net5.0\WageDocConsoleApp.genruntimeconfig.cache
+C:\Users\Turkikaze\Desktop\WageDoc(05042021)\WageDoc\WageDocConsoleApp\obj\Debug\net5.0\WageDocConsoleApp.csprojAssemblyReference.cache

@@ -2218,24 +2218,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\selta\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Turkikaze\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\selta\\Documents\\GitHub\\WageDoc\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Turkikaze\\Desktop\\WageDoc\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj",
       "projectName": "WageDoc.Android",
-      "projectPath": "C:\\Users\\selta\\Documents\\GitHub\\WageDoc\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj",
-      "packagesPath": "C:\\Users\\selta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\selta\\Documents\\GitHub\\WageDoc\\WageDoc\\WageDoc.Android\\obj\\",
+      "projectPath": "C:\\Users\\Turkikaze\\Desktop\\WageDoc\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj",
+      "packagesPath": "C:\\Users\\Turkikaze\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Turkikaze\\Desktop\\WageDoc\\WageDoc\\WageDoc.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\selta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Turkikaze\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2249,8 +2252,8 @@
       "frameworks": {
         "monoandroid10.0": {
           "projectReferences": {
-            "C:\\Users\\selta\\Documents\\GitHub\\WageDoc\\WageDoc\\WageDoc\\WageDoc.csproj": {
-              "projectPath": "C:\\Users\\selta\\Documents\\GitHub\\WageDoc\\WageDoc\\WageDoc\\WageDoc.csproj"
+            "C:\\Users\\Turkikaze\\Desktop\\WageDoc\\WageDoc\\WageDoc\\WageDoc.csproj": {
+              "projectPath": "C:\\Users\\Turkikaze\\Desktop\\WageDoc\\WageDoc\\WageDoc\\WageDoc.csproj"
             }
           }
         }

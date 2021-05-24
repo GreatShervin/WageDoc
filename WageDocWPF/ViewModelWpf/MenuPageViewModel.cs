@@ -12,10 +12,14 @@ namespace WageDocWPF.ViewModelWpf
         public RelayCommand HomeViewCommand { get; set; }
 
         public RelayCommand DiscoveryViewCommand { get; set; }
+        
+        public RelayCommand CalendarViewCommand { get; set; }
 
         public object _currentView;
         public HomeViewModel HomeVm { get; set; }
         public DiscoveryViewModel DiscoveryVm { get; set; }
+
+        public KalendarViewModel KalendarVm { get; set; } 
         public object CurrentView
         {
             get { return _currentView; }
@@ -27,10 +31,13 @@ namespace WageDocWPF.ViewModelWpf
         }
        public MenuPageViewModel()
         {
+
             HomeVm = new HomeViewModel();
             DiscoveryVm = new DiscoveryViewModel();
+            KalendarVm = new KalendarViewModel();
             CurrentView = HomeVm;
 
+           
             HomeViewCommand = new RelayCommand(o => {
                 CurrentView = HomeVm;
             });

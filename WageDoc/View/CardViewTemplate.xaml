@@ -4,7 +4,7 @@
              x:Class="WageDoc.View.CardViewTemplate"
              xmlns:local ="clr-namespace:WageDoc.View">
 
-    <Frame IsClippedToBounds="True" HasShadow="True" BackgroundColor="White" CornerRadius="30" HeightRequest="100">
+    <Frame IsClippedToBounds="True" HasShadow="True" BackgroundColor="White" CornerRadius="30" HeightRequest="10">
         <Frame.BorderColor>
             <OnPlatform x:TypeArguments="Color"
                         Android="Gray"

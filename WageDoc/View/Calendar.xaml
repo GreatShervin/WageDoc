@@ -18,7 +18,9 @@
                            TitleLeftArrowTextColor="Blue"
                            SelectedDate="{Binding Date}"
                            SpecialDates="{Binding Attendances}"
-                           DateCommand="{Binding DateChosen}"/>
+                           DateCommand="{Binding DateChosen}"
+                           />
+     
 
 
     </ContentPage.Content>

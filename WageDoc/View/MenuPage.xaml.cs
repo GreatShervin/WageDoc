@@ -20,6 +20,19 @@ namespace WageDoc.View
             this.CurrentPage = mainpage;
         }
 
-        
+        private  void TagesAnsicht_Button(object sender, EventArgs e)
+        {
+            
+        }
+
+        private async void Calendar_DateClicked(object sender, XamForms.Controls.DateTimeEventArgs e)
+        {
+            await Application.Current.MainPage.Navigation.PushAsync(new Tagesansicht());
+        }
+
+        private async void ProfilButton_Clicked(object sender, EventArgs e)
+        {
+            await Application.Current.MainPage.Navigation.PushAsync(new ProfilePage());
+                }
     }
 }

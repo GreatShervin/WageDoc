@@ -975,6 +975,22 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/5.0.0.2012": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Lifecycle.LiveData": "2.2.0.4",
+          "Xamarin.Google.Android.Material": "1.2.1.1"
+        },
+        "compile": {
+          "lib/MonoAndroid10.0/Xamarin.Forms.Material.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10.0/Xamarin.Forms.Material.dll": {}
+        },
+        "build": {
+          "buildTransitive/MonoAndroid10/Xamarin.Forms.Visual.Material.targets": {}
+        }
+      },
       "Xamarin.Google.Android.Material/1.2.1.1": {
         "type": "package",
         "dependencies": {
@@ -1040,7 +1056,8 @@
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "XamForms.Controls.Calendar": "1.1.1",
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.Visual.Material": "5.0.0.2012"
         },
         "compile": {
           "bin/placeholder/WageDoc.dll": {}
@@ -2221,6 +2238,28 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Visual.Material/5.0.0.2012": {
+      "sha512": "ZwYp0UpXJICPvHlgiVCdpr3WwWcMClb7rNCUlMZ93L/zJVFIGMloi49sC9l+jxvPZMStVTbptDm+BhSNszNHng==",
+      "type": "package",
+      "path": "xamarin.forms.visual.material/5.0.0.2012",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "build/MonoAndroid10/Xamarin.Forms.Visual.Material.targets",
+        "buildTransitive/MonoAndroid10/Xamarin.Forms.Visual.Material.targets",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Material.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Material.pdb",
+        "lib/MonoAndroid10/_._",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.pdb",
+        "lib/netstandard1.0/_._",
+        "lib/tizen40/Xamarin.Forms.Material.dll",
+        "lib/tizen40/Xamarin.Forms.Material.pdb",
+        "xamarin.forms.visual.material.5.0.0.2012.nupkg.sha512",
+        "xamarin.forms.visual.material.nuspec"
+      ]
+    },
     "Xamarin.Google.Android.Material/1.2.1.1": {
       "sha512": "kxgTX/apGJyizjwSgPn6VFiYtJ7ym/hMr7VVJI7kBCfexbWLij4pQlrxRB7Spsrzy+he+mUZO0wN/iFrsVlEYQ==",
       "type": "package",
@@ -2292,7 +2331,8 @@
       "Xam.Plugins.Forms.ImageCircle >= 3.0.0.5",
       "Xamarin.Android.Support.v7.CardView >= 28.0.0.3",
       "Xamarin.Essentials >= 1.6.1",
-      "Xamarin.Forms >= 5.0.0.2012"
+      "Xamarin.Forms >= 5.0.0.2012",
+      "Xamarin.Forms.Visual.Material >= 5.0.0.2012"
     ]
   },
   "packageFolders": {
@@ -2303,11 +2343,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Turkikaze\\Desktop\\WageDoc(05042021)\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj",
       "projectName": "WageDoc.Android",
-      "projectPath": "C:\\Users\\Turkikaze\\Desktop\\WageDoc(05042021)\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj",
+      "projectPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj",
       "packagesPath": "C:\\Users\\Turkikaze\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Turkikaze\\Desktop\\WageDoc(05042021)\\WageDoc\\WageDoc.Android\\obj\\",
+      "outputPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2330,8 +2370,8 @@
       "frameworks": {
         "monoandroid10.0": {
           "projectReferences": {
-            "C:\\Users\\Turkikaze\\Desktop\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj": {
-              "projectPath": "C:\\Users\\Turkikaze\\Desktop\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj"
+            "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj": {
+              "projectPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj"
             }
           }
         }
@@ -2353,6 +2393,10 @@
             "version": "[1.6.1, )"
           },
           "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2012, )"
+          },
+          "Xamarin.Forms.Visual.Material": {
             "target": "Package",
             "version": "[5.0.0.2012, )"
           }

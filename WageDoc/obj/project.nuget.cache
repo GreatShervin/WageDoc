@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S7ba6Fc1HK62lQ7hjyt9w70pl2VRPr0AiJUp146HWNXbcPv37XfZTtsm1m+d1y7GTf2K8e8wIbFVQSxShQgzVQ==",
+  "dgSpecHash": "Oa/GgJHfAFvi8q4VgU36aXVFC67q5TRHj6HGTmmCeFTRTejgpPY96wDkAyCOxEzdruypxlKDLqxLvqLbQuAY2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Turkikaze\\Desktop\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj",
+  "projectFilePath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Turkikaze\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Turkikaze\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
@@ -10,6 +10,7 @@
     "C:\\Users\\Turkikaze\\.nuget\\packages\\xam.plugins.forms.imagecircle\\3.0.0.5\\xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
     "C:\\Users\\Turkikaze\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Users\\Turkikaze\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\Turkikaze\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2012\\xamarin.forms.visual.material.5.0.0.2012.nupkg.sha512",
     "C:\\Users\\Turkikaze\\.nuget\\packages\\xamforms.controls.calendar\\1.1.1\\xamforms.controls.calendar.1.1.1.nupkg.sha512"
   ],
   "logs": [

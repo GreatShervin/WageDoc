@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Turkikaze\\Desktop\\WageDoc(05042021)\\WageDoc\\WageDocWPF\\WageDocWPF.csproj": {}
+    "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDocWPF\\WageDocWPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Turkikaze\\Desktop\\WageDoc(05042021)\\WageDoc\\WageDocWPF\\WageDocWPF.csproj": {
+    "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDocWPF\\WageDocWPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Turkikaze\\Desktop\\WageDoc(05042021)\\WageDoc\\WageDocWPF\\WageDocWPF.csproj",
+        "projectUniqueName": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDocWPF\\WageDocWPF.csproj",
         "projectName": "WageDocWPF",
-        "projectPath": "C:\\Users\\Turkikaze\\Desktop\\WageDoc(05042021)\\WageDoc\\WageDocWPF\\WageDocWPF.csproj",
+        "projectPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDocWPF\\WageDocWPF.csproj",
         "packagesPath": "C:\\Users\\Turkikaze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Turkikaze\\Desktop\\WageDoc(05042021)\\WageDoc\\WageDocWPF\\obj\\",
+        "outputPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDocWPF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\VS\\NuGetPackages",

@@ -7,10 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ViewWPF\CalendarView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ViewWPF\DiscoveryView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ViewWPF\HomeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewWPF\KalendarView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ViewWPF\MenuPage.xaml.cs">
@@ -27,10 +33,16 @@
     <Page Update="Theme\TextBoxTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="ViewWPF\CalendarView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ViewWPF\DiscoveryView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ViewWPF\HomeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewWPF\KalendarView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ViewWPF\MenuPage.xaml">

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm ="clr-namespace:WageDoc.ViewModel"
+             x:Class="WageDoc.View.Tagesansicht">
+    <ContentPage.Background>
+        <LinearGradientBrush>
+            <GradientStop Color="#003534" Offset="0.0"/>
+            <GradientStop Color="#56776c" Offset="1"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="Back" Clicked="Back_Clicked" Text="Back" WidthRequest="100" HorizontalOptions="Start" TextColor="White" BackgroundColor="Transparent"/>
+
+            <Label Text=""></Label>
+            <StackLayout Margin="20" Padding="10" BackgroundColor="White">
+                <Label Text=" Wie lange haben Sie gearbeitet?" FontSize="20" Margin="10" FontAttributes="Bold"/>
+            <Grid>
+                <Label Grid.Row="0" Grid.Column="0"  Text=" Von:"/>
+                <Label Grid.Row="0" Grid.Column="1"   Text="Bis:"/>
+                <Entry Grid.Row="1" Grid.Column="0" x:Name="Von" TextChanged="Von_TextChanged" ></Entry>
+                    <Entry Grid.Row="1" Grid.Column="1" x:Name="Bis" TextChanged="Bis_TextChanged"></Entry>
+            </Grid>
+                <StackLayout Orientation="Horizontal">
+                <Label Text=" Verdienter Betrag: " FontSize="20"/>
+                    <Label x:Name="DailyWage" Text="" TextColor="Green" FontSize="20"/>
+                    <Label Text="€" TextColor="Green" FontSize="20"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                <Button BackgroundColor="#56776c" Text="Bestätigen" Margin="10" CornerRadius="10" WidthRequest="150"/>
+                    <Button x:Name="Berechnen" BackgroundColor="#56776c" Text="Berechnen" Clicked="Berechnen_Clicked"  Margin="10" CornerRadius="10" WidthRequest="150"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

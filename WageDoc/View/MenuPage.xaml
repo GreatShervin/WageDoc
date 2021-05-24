@@ -33,8 +33,10 @@
                            TitleRightArrowTextColor="White"
                            SelectedDate="{Binding Date}"
                            SpecialDates="{Binding Attendances}"
-                           DateCommand="{Binding DateChosen}"/>
+                           DateCommand="{Binding DateChosen}"
+                           DateClicked="Calendar_DateClicked"/>
             <Label Text="  Einnahmen: " FontSize="Large" TextColor="White"></Label>
+           
             <Button Margin="0,90,0,0" Text="In PDF umwandeln" BackgroundColor="#56776c" TextColor="White" CornerRadius="30"/>
         </StackLayout>
     </ContentPage>
@@ -136,7 +138,8 @@
                 <GradientStop Color="#56776c" Offset="1"/>
             </LinearGradientBrush>
         </ContentPage.Background>
-        
-        
+        <RelativeLayout>
+            <Button x:Name="ProfilButton" ImageSource="profilll.jpg" HorizontalOptions="End" WidthRequest="50" HeightRequest="50" Clicked="ProfilButton_Clicked"></Button>
+        </RelativeLayout>
     </ContentPage>
 </TabbedPage>

@@ -24,5 +24,15 @@ namespace WageDocWPF.ViewWPF
         {
             InitializeComponent();
         }
+
+        private void Calendar_Click(object sender, RoutedEventArgs e)
+        {
+            
+            CalendarView kV = new CalendarView();
+            kV.Show();
+
+        }
+
+       
     }
 }

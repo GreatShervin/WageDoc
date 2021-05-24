@@ -16,9 +16,9 @@ namespace WageDoc.ViewModel
         {
             return new List<Onboarding>
             {
-                new Onboarding{Heading="Hurensohn geh sterben", Caption="Bitch nigga i dont like you, go dieeee Lessgo dababy?"},
-                new Onboarding{Heading="Hurensohn geh sterben", Caption="Bitch nigga i dont like you, go dieeee Lessgo dababy?"},
-                new Onboarding{Heading="Hurensohn geh sterben", Caption="Bitch nigga i dont like you, go dieeee Lessgo dababy?"}
+                new Onboarding{Heading="Lorem ipson", Caption="Lorem Ipson Lorem Ipson?"},
+                new Onboarding{Heading="Lorem ipson", Caption="Lorem Ipson Lorem Ipson?"},
+                new Onboarding{Heading="Lorem ipson", Caption="Lorem Ipson Lorem Ipson?"}
             };
 
         }

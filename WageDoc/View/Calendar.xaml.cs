@@ -20,36 +20,5 @@ namespace WageDoc.View
            
         }
 
-
-        //public void generateCalendar()
-        //{
-        //    for(int y = 0; y < 5 ; y++)
-        //    {
-        //        gridCalendar.ColumnDefinitions.Add(new ColumnDefinition());
-        //        for(int x = 0; x < 7; x++)
-        //        {
-        //            gridCalendar.RowDefinitions.Add(new RowDefinition());
-        //        }
-        //    }
-        //}
-
-        //public void addObjectCalendar()
-        //{
-        //    for (int y = 0; y < 6; y++) 
-        //    {
-        //        for(int x =0; x<7; x++)
-        //        {
-        //            gridCalendar.Children.Add(new BoxView
-        //            {
-        //                BackgroundColor = Color.Red,
-        //                HeightRequest =75,
-        //                WidthRequest= 40
-        //            } ,x,y) ;
-        //        }
-
-        //    }
-        //}
-
-
     }
 }

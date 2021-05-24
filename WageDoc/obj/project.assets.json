@@ -76,6 +76,18 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/5.0.0.2012": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
       "XamForms.Controls.Calendar/1.1.1": {
         "type": "package",
         "dependencies": {
@@ -571,6 +583,28 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Visual.Material/5.0.0.2012": {
+      "sha512": "ZwYp0UpXJICPvHlgiVCdpr3WwWcMClb7rNCUlMZ93L/zJVFIGMloi49sC9l+jxvPZMStVTbptDm+BhSNszNHng==",
+      "type": "package",
+      "path": "xamarin.forms.visual.material/5.0.0.2012",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "build/MonoAndroid10/Xamarin.Forms.Visual.Material.targets",
+        "buildTransitive/MonoAndroid10/Xamarin.Forms.Visual.Material.targets",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Material.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Material.pdb",
+        "lib/MonoAndroid10/_._",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.pdb",
+        "lib/netstandard1.0/_._",
+        "lib/tizen40/Xamarin.Forms.Material.dll",
+        "lib/tizen40/Xamarin.Forms.Material.pdb",
+        "xamarin.forms.visual.material.5.0.0.2012.nupkg.sha512",
+        "xamarin.forms.visual.material.nuspec"
+      ]
+    },
     "XamForms.Controls.Calendar/1.1.1": {
       "sha512": "GCydwm9HO+8V4iGVsGJZtnHJaqIpjas40BSRU+T7lIM7E4nZ7pOn2Ifzu0Y6MLrZJuqCHFeroOWjJSfOjZIyyw==",
       "type": "package",
@@ -602,7 +636,8 @@
       "Xam.Plugins.Forms.ImageCircle >= 3.0.0.5",
       "XamForms.Controls.Calendar >= 1.1.1",
       "Xamarin.Essentials >= 1.6.1",
-      "Xamarin.Forms >= 5.0.0.2012"
+      "Xamarin.Forms >= 5.0.0.2012",
+      "Xamarin.Forms.Visual.Material >= 5.0.0.2012"
     ]
   },
   "packageFolders": {
@@ -613,11 +648,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Turkikaze\\Desktop\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj",
+      "projectUniqueName": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj",
       "projectName": "WageDoc",
-      "projectPath": "C:\\Users\\Turkikaze\\Desktop\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj",
+      "projectPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj",
       "packagesPath": "C:\\Users\\Turkikaze\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Turkikaze\\Desktop\\WageDoc(05042021)\\WageDoc\\WageDoc\\obj\\",
+      "outputPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "F:\\VS\\NuGetPackages",
@@ -671,6 +706,10 @@
             "version": "[1.6.1, )"
           },
           "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2012, )"
+          },
+          "Xamarin.Forms.Visual.Material": {
             "target": "Package",
             "version": "[5.0.0.2012, )"
           }

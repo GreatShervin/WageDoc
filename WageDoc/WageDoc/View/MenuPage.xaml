@@ -4,53 +4,142 @@
              x:Class="WageDoc.View.MenuPage"
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              android:TabbedPage.ToolbarPlacement="Bottom"
-             android:TabbedPage.BarItemColor="Black"
-             android:TabbedPage.BarSelectedItemColor="Red"
+             android:TabbedPage.BarItemColor="#003534"
+             android:TabbedPage.BarSelectedItemColor="White"
+             BarBackgroundColor="#56776c"
              xmlns:view="clr-namespace:WageDoc.View" 
              xmlns:viewModel ="clr-namespace:WageDoc.ViewModel">
-    <ContentPage Title="Kalender" IconImageSource="calendar.png" >
-        <ListView x:Name="MonthList" >
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <StackLayout>
-                            <Label Text="{Binding Name}"></Label>
-                            <Label Text="{Binding Days}"></Label>
-                        </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-        
+   
+    <ContentPage Title="Kalender" IconImageSource="calendar.png"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"  
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
+             xmlns:controls="clr-namespace:XamForms.Controls;assembly=XamForms.Controls.Calendar"
+             mc:Ignorable ="d"
+             x:DataType="viewModel:CalendarPageModel" Padding="0,40,0,0">
+        <ContentPage.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="#003534" Offset="0.0"/>
+                <GradientStop Color="#56776c" Offset="1"/>
+            </LinearGradientBrush>
+        </ContentPage.Background>
+        <StackLayout>
+        <controls:Calendar Padding="10,0,10,0"
+                           SelectedBorderWidth="4"
+                           DisabledBorderColor="Black"
+                           ShowNumberOfWeek="false"
+                           StartDay="Monday"
+                           TitleLabelTextColor="White"
+                           TitleLeftArrowTextColor="White"
+                           TitleRightArrowTextColor="White"
+                           SelectedDate="{Binding Date}"
+                           SpecialDates="{Binding Attendances}"
+                           DateCommand="{Binding DateChosen}"/>
+            <Label Text="  Einnahmen: " FontSize="Large" TextColor="White"></Label>
+            <Button Margin="0,90,0,0" Text="In PDF umwandeln" BackgroundColor="#56776c" TextColor="White" CornerRadius="30"/>
+        </StackLayout>
     </ContentPage>
     <ContentPage Title="Home" IconImageSource="home.png" >
+        <ContentPage.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="#003534" Offset="0.0"/>
+                <GradientStop Color="#56776c" Offset="1"/>
+            </LinearGradientBrush>
+        </ContentPage.Background>
         <ContentPage.BindingContext>
-            <viewModel:CardDataViewModel/>
+            <viewModel:MenuCardDataViewModel/>
+            
         </ContentPage.BindingContext>
+        
         <ScrollView>
-        <StackLayout Orientation="Vertical">
-            <Frame>
-                <StackLayout>
-                <Image Source="wagedoc.png"/>
-                <Label Text="WILLKOMMEN AUF WAGEDOC" FontSize="Large"/>
+            <Grid Padding="0"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+                <Frame HeightRequest="200" WidthRequest="500">
+                    <Frame.Background>
+                        <LinearGradientBrush>
+                            <GradientStop Color="#1c3014" Offset="0.0"/>
+                            <GradientStop Color="#09281e" Offset="1.1"/>
+                        </LinearGradientBrush>
+                    </Frame.Background>
+                    <StackLayout>
+                        <StackLayout.BindingContext>
+                        <viewModel:CarusalViewModel/>
+                    </StackLayout.BindingContext>
+                <CarouselView  x:Name="cvOnboarding" IndicatorView="LandingIndicator"
+                              ItemsSource="{Binding Onboardings}" VerticalOptions="Start" WidthRequest="500">
+                        
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Spacing="10">
+                                <Label Text="{Binding Heading}" TextColor="White" FontSize="26" FontAttributes="Bold" WidthRequest="220" HorizontalOptions="Start" />
+                                <Label Text="{Binding Caption}" TextColor="White" FontSize="14" WidthRequest="250" HorizontalOptions="Start"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                    
+                </CarouselView>
+                <IndicatorView x:Name="LandingIndicator" Grid.Row="0" IndicatorsShape="Circle" IndicatorColor="#B8B8B8" SelectedIndicatorColor="#E7305E">
+                    
+                </IndicatorView>
                     </StackLayout>
-            </Frame>
-            <ListView x:Name="listView" SelectedItem="{Binding SelectedItem,Mode=TwoWay}" 
-                      RowHeight="150" ItemsSource="{Binding CardDataCollection}" HasUnevenRows="True">
-                <ListView.ItemTemplate>
+                </Frame>
+                <StackLayout Padding="10" Grid.Row="1">
+                <CollectionView x:Name="menuCardList" Margin="0,40,0,0"   ItemsSource="{Binding MenuCards}" SelectionMode="Single"
+                            SelectedItem="{Binding SelectedMenuCardModel}" VerticalScrollBarVisibility="Never"
+                            SelectionChangedCommand="{Binding SelectionCommand}" >
+                    <CollectionView.ItemsLayout>
+                    <GridItemsLayout  Orientation="Vertical" VerticalItemSpacing="5.5" HorizontalItemSpacing="5.5" Span="2" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell>
-                            <view:CardViewTemplate/>
-                        </ViewCell>
+                        <Frame CornerRadius="30" >
+                            <Frame.Background>
+                                <LinearGradientBrush>
+                                    <GradientStop Color="#2696aa" Offset="0.0"/>
+                                    <GradientStop Color="#044c8c" Offset="1.1" />
+                                </LinearGradientBrush>
+                            </Frame.Background>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup Name="CommonStates">
+                                    <VisualState Name="Normal"/>
+                                    <VisualState Name="Selected">
+                                        <VisualState.Setters>
+                                            <Setter Property="BackgroundColor" Value="#56776c"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                           
+                            <StackLayout Padding="5"  WidthRequest="255" HeightRequest="160" >
+                               <StackLayout.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                               </StackLayout.GestureRecognizers>
+                                        <Image Aspect="AspectFill" Source="{Binding Image}" Margin="10" WidthRequest="105" HeightRequest="105" 
+                                       HorizontalOptions="Center" VerticalOptions="Center"/>
+                                <Label x:Name="labeltext"  Text="{Binding Title}" TextColor="White"/> 
+                            </StackLayout>
+                            
+                        </Frame>
                     </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </StackLayout>
+                    </CollectionView.ItemTemplate>
+            </CollectionView>
+                </StackLayout>
+           
+            </Grid>
+            
         </ScrollView>
     </ContentPage>
-    <ContentPage Title="Einstellungen" IconImageSource="setting.png">
+    <ContentPage Title="Einstellungen" IconImageSource="setting.png" Padding="0,40,0,0">
+        <ContentPage.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="#003534" Offset="0.0"/>
+                <GradientStop Color="#56776c" Offset="1"/>
+            </LinearGradientBrush>
+        </ContentPage.Background>
+        
         
     </ContentPage>
-
-
 </TabbedPage>

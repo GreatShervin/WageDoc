@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WageDoc.View.VerificationPage"
+             Title="WageDoc Verification">
+
+    <StackLayout>
+        <Grid VerticalOptions="FillAndExpand">
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+                <Frame BackgroundColor="#147c8c" HeightRequest="300" Padding="0" Margin="0">
+
+                </Frame>
+            </StackLayout>
+            
+            <StackLayout Margin="0,150,0,0">
+                <Frame BackgroundColor="White" CornerRadius="20" HasShadow="True" HeightRequest="300" Padding="0" Margin="10">
+                    <StackLayout>
+                        <StackLayout HorizontalOptions="CenterAndExpand" Margin="30,20,30,0">
+                            <Label Text="Verification code" TextColor="Gray" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"></Label>
+                            <Label Text="Bitte geben sie den Code ein um ihren Account zu registrieren" TextColor="Gray" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"></Label>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" >
+                                <Frame x:Name="box1" BackgroundColor="White" BorderColor="DarkGray" WidthRequest="50"  VerticalOptions="Fill" Padding="0" Margin="0">
+                                    <Entry Text="" Unfocused="box1_Unfocused" Focused="Entry_Focused" ReturnType="Next" Keyboard="Numeric" Placeholder="0" HorizontalOptions="CenterAndExpand" FontSize="Large"></Entry>
+                                </Frame>
+                                <Frame x:Name="box2" BackgroundColor="White" BorderColor="DarkGray" WidthRequest="50"  VerticalOptions="Fill" Padding="0" Margin="0">
+                                    <Entry Text="" Unfocused="box1_Unfocused" Focused="Entry_Focused_1" ReturnType="Next" Keyboard="Numeric" Placeholder="0" HorizontalOptions="CenterAndExpand" FontSize="Large"></Entry>
+                                </Frame>
+                                <Frame x:Name="box3" BackgroundColor="White" BorderColor="DarkGray" WidthRequest="50"  VerticalOptions="Fill" Padding="0" Margin="0">
+                                    <Entry Text="" Unfocused="box1_Unfocused" Focused="Entry_Focused_2" ReturnType="Next" Keyboard="Numeric" Placeholder="0" HorizontalOptions="CenterAndExpand" FontSize="Large"></Entry>
+                                </Frame>
+                                <Frame x:Name="box4" BackgroundColor="White" BorderColor="DarkGray" WidthRequest="50"  VerticalOptions="Fill" Padding="0" Margin="0">
+                                    <Entry Text="" Unfocused="box1_Unfocused"  Focused="Entry_Focused_3"  ReturnType="Next" Keyboard="Numeric" Placeholder="0" HorizontalOptions="CenterAndExpand" FontSize="Large"></Entry>
+                                </Frame>
+                                <Frame x:Name="box5" BackgroundColor="White" BorderColor="DarkGray" WidthRequest="50" VerticalOptions="Fill" Padding="0" Margin="0">
+                                    <Entry Text="" Unfocused="box1_Unfocused"  Focused="Entry_Focused_4" ReturnType="Next" Keyboard="Numeric" Placeholder="0" HorizontalOptions="CenterAndExpand" FontSize="Large"></Entry>
+                                </Frame>
+                            </StackLayout >
+
+                            <StackLayout Margin="40,15">
+                                <Button Text="Verified" CornerRadius="12" BorderColor="#147c8c" BackgroundColor="#56776c" TextColor="White"></Button>
+                                <Button Text="Code erneut senden" CornerRadius="12" BorderColor="#147c8c" BackgroundColor="#56776c" TextColor="White"></Button>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+
+           
+        </Grid>
+    </StackLayout>
+    
+</ContentPage>

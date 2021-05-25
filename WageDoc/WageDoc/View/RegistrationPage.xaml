@@ -7,18 +7,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WageDoc.View.RegistrationPage"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin">
+    <ContentPage.Background>
+        <LinearGradientBrush>
+            <GradientStop Color="#003534" Offset="0.0"/>
+            <GradientStop Color="#56776c" Offset="1"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
     <ScrollView>
         <StackLayout Orientation="Vertical" Padding="30" Spacing="40">
 
-            <Image Source="wagedoc.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="200" BackgroundColor="#147c8c" ></Image>
+            <Image Source="wagedoc.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="200"  ></Image>
 
-            <Label Text="Login" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Start" TextColor="Black"></Label>
+            <Label Text="Register" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Start" TextColor="Black"></Label>
             <StackLayout Orientation="Vertical" Spacing="10">
 
                 <Frame BackgroundColor="Transparent" BorderColor="Black" Padding="0" Margin="0" CornerRadius="50" HorizontalOptions="FillAndExpand" >
                     <StackLayout Orientation="Horizontal">
                         <Frame BackgroundColor="AliceBlue" CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7,7,0,7">
-                            <controls:CircleImage Source="profilll.jpg" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></controls:CircleImage>
+                            <controls:CircleImage Source="profil.png" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></controls:CircleImage>
                         </Frame>
 
                         <Entry x:Name="Vorname" Text="" Placeholder="Vorname"   
@@ -32,7 +38,7 @@
                 <Frame BackgroundColor="Transparent" BorderColor="Black" Padding="0" Margin="0" CornerRadius="50" HorizontalOptions="FillAndExpand" >
                     <StackLayout Orientation="Horizontal">
                         <Frame BackgroundColor="AliceBlue" CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7,7,0,7">
-                            <controls:CircleImage Source="profilll.jpg" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></controls:CircleImage>
+                            <controls:CircleImage Source="profil.png" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></controls:CircleImage>
                         </Frame>
 
                         <Entry x:Name="Nachname" Text="" Placeholder="Nachname"   
@@ -48,7 +54,7 @@
                 <Frame BackgroundColor="Transparent" BorderColor="Black" Padding="0" Margin="0" CornerRadius="50" HorizontalOptions="FillAndExpand" >
                     <StackLayout Orientation="Horizontal">
                         <Frame BackgroundColor="AliceBlue" CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7,7,0,7">
-                            <controls:CircleImage Source="date.jpg" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></controls:CircleImage>
+                            <controls:CircleImage Source="calendar.png" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></controls:CircleImage>
                         </Frame>
 
                         <DatePicker x:Name="Geburtsdatum"  ></DatePicker>
@@ -102,12 +108,12 @@
             <Grid RowSpacing="10">
                 <Button x:Name="b1" Clicked="Register_Clicked"  Text="Register"
                     
-                    VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="1" Grid.Column="0"   CornerRadius="12" BorderColor="#147c8c" BackgroundColor="YellowGreen"/>
+                    VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="1" Grid.Column="0"   CornerRadius="12" BorderColor="#147c8c" TextColor="White" BackgroundColor="#56776c" />
 
 
                 <Button x:Name="b2" Clicked="BackToLogin_Clicked"  Text="Back To Login"
                     
-                    VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="1" Grid.Column="1"   CornerRadius="12" BorderColor="#147c8c" BackgroundColor="YellowGreen"/>
+                    VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="1" Grid.Column="1"   CornerRadius="12" BorderColor="#147c8c" TextColor="White" BackgroundColor="#56776c"/>
             </Grid>
             <ActivityIndicator x:Name="activityIndicator1" IsRunning="{Binding IsBusy}" 
                     VerticalOptions="Center" HorizontalOptions="Center" Color="Blue" />

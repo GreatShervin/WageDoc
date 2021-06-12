@@ -138,8 +138,43 @@
                 <GradientStop Color="#56776c" Offset="1"/>
             </LinearGradientBrush>
         </ContentPage.Background>
-        <RelativeLayout>
+        
+        <StackLayout>
+            <StackLayout.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#003534" Offset="0.0"/>
+                    <GradientStop Color="#56776c" Offset="1"/>
+                </LinearGradientBrush>
+            </StackLayout.Background>
+
+            <Frame Padding="10" >
+                <StackLayout>
+                    <Label Text="User" FontSize="Title" TextColor="Black"/>
+                    <TableView>
+                        <TableSection>
+                            <TextCell Text="Weiteren User anmelden" TextColor="Black"/>
+                            <TextCell Text="User löschen" TextColor="Black"/>
+                        </TableSection>
+                    </TableView>
+
+                    <Label Text="Passwort und Email" FontSize="Title" TextColor="Black"/>
+                    <TableView>
+                        <TableSection>
+                            <TextCell Text="Password ändern" TextColor="Black"></TextCell>
+                            <TextCell Text="Email ändern" TextColor="Black"></TextCell>
+                        </TableSection>
+                    </TableView>
+
+                    <Label Text="Sonstiges" FontSize="Title" TextColor="Black"/>
+                    <TableView>
+                        <TableSection>
+                            <TextCell Text="Währung" TextColor="Black"></TextCell>
+
+                        </TableSection>
+                    </TableView>
+                </StackLayout>
+            </Frame>
             <Button x:Name="ProfilButton" ImageSource="profilll.jpg" HorizontalOptions="End" WidthRequest="50" HeightRequest="50" Clicked="ProfilButton_Clicked"></Button>
-        </RelativeLayout>
+        </StackLayout>
     </ContentPage>
 </TabbedPage>

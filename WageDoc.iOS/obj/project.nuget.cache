@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AlUYl7EfaVCBJdhNzVJRLRs1jlbrSKRVeOB1aTekq6GqddAHCAe9kz0kASLRjp+ngHz4Y54XMWXufcSF40UvYg==",
+  "dgSpecHash": "4/n9AadN9lR/Ekanpcyo4e5SCdIwFKn0kQ0nQtDRPxLmAfR094mPBYhoNkwB1FvL8durGHKKnvX6jnUXEwscNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc.iOS\\WageDoc.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc.iOS\\WageDoc.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Turkikaze\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Turkikaze\\.nuget\\packages\\xam.plugins.forms.imagecircle\\3.0.0.5\\xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",

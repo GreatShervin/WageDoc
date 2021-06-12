@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4QXRqfXJsX2+ULTkZPcoUuYZo3OP0blnbg4TbMhWBxemfmqC3XVTPh4RrFMTu3CdCAdgq8b0KO+I+EjslbDOLw==",
+  "dgSpecHash": "hNaCDIF4AF0JizKmu9YprjzBS0oVg+jMqkgfqhWxqjxFbk4oiU4IrRp1WIPdP+h3RzHMEDDvE0Hg251ylB78Ww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDocWPF\\WageDocWPF.csproj",
+  "projectFilePath": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDocWPF\\WageDocWPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Turkikaze\\.nuget\\packages\\materialdesigncolors\\2.0.0\\materialdesigncolors.2.0.0.nupkg.sha512",
     "C:\\Users\\Turkikaze\\.nuget\\packages\\materialdesignthemes\\4.0.0\\materialdesignthemes.4.0.0.nupkg.sha512"

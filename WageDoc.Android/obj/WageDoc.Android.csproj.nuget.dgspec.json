@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj": {}
+    "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj": {
+    "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj",
         "projectName": "WageDoc.Android",
-        "projectPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj",
+        "projectPath": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc.Android\\WageDoc.Android.csproj",
         "packagesPath": "C:\\Users\\Turkikaze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc.Android\\obj\\",
+        "outputPath": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -34,8 +34,8 @@
         "frameworks": {
           "monoandroid10.0": {
             "projectReferences": {
-              "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj": {
-                "projectPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj"
+              "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc\\WageDoc.csproj": {
+                "projectPath": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc\\WageDoc.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj": {
+    "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc\\WageDoc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj",
+        "projectUniqueName": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc\\WageDoc.csproj",
         "projectName": "WageDoc",
-        "projectPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj",
+        "projectPath": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc\\WageDoc.csproj",
         "packagesPath": "C:\\Users\\Turkikaze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc\\obj\\",
+        "outputPath": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\VS\\NuGetPackages",

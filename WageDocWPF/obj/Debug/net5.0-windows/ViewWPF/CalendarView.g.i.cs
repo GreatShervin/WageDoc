@@ -61,7 +61,7 @@ namespace WageDocWPF.ViewWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WageDocWPF;component/viewwpf/calendarview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WageDocWPF;V1.0.0.0;component/viewwpf/calendarview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\ViewWPF\CalendarView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

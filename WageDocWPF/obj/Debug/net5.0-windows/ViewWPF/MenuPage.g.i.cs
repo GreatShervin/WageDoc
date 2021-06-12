@@ -57,7 +57,7 @@ namespace WageDocWPF.ViewWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WageDocWPF;component/viewwpf/menupage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WageDocWPF;V1.0.0.0;component/viewwpf/menupage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\ViewWPF\MenuPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

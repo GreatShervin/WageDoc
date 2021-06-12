@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Turkikaze\Desktop\3BHIF 2.Semester\PRE\WageDoc(2)\WageDoc(2)\WageDoc(05042021)\WageDoc\WageDocWPF\obj\Debug\net5.0-windows\
+C:\Users\Turkikaze\Desktop\Xamarin\WageDoc\WageDocWPF\obj\Debug\net5.0-windows\
 WageDocWPF
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\Turkikaze\Desktop\3BHIF 2.Semester\PRE\WageDoc(2)\WageDoc(2)\WageDoc(05042021)\WageDoc\WageDocWPF\App.xaml
+C:\Users\Turkikaze\Desktop\Xamarin\WageDoc\WageDocWPF\App.xaml
 8-1989067390
 
 18-991421948
 195-1997864189
 MainWindow.xaml;Theme\MenuButtonTheme.xaml;Theme\TextBoxTheme.xaml;ViewWPF\CalendarView.xaml;ViewWPF\DiscoveryView.xaml;ViewWPF\HomeView.xaml;ViewWPF\KalendarView.xaml;ViewWPF\MenuPage.xaml;
 
-True
+False
 

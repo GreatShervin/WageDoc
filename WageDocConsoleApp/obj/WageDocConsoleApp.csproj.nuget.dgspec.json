@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDocConsoleApp\\WageDocConsoleApp.csproj": {}
+    "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDocConsoleApp\\WageDocConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDocConsoleApp\\WageDocConsoleApp.csproj": {
+    "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDocConsoleApp\\WageDocConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDocConsoleApp\\WageDocConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDocConsoleApp\\WageDocConsoleApp.csproj",
         "projectName": "WageDocConsoleApp",
-        "projectPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDocConsoleApp\\WageDocConsoleApp.csproj",
+        "projectPath": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDocConsoleApp\\WageDocConsoleApp.csproj",
         "packagesPath": "C:\\Users\\Turkikaze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDocConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDocConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\VS\\NuGetPackages",

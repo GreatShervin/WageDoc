@@ -1279,11 +1279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc.iOS\\WageDoc.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc.iOS\\WageDoc.iOS.csproj",
       "projectName": "WageDoc.iOS",
-      "projectPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc.iOS\\WageDoc.iOS.csproj",
+      "projectPath": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc.iOS\\WageDoc.iOS.csproj",
       "packagesPath": "C:\\Users\\Turkikaze\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1306,8 +1306,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj": {
-              "projectPath": "C:\\Users\\Turkikaze\\Desktop\\3BHIF 2.Semester\\PRE\\WageDoc(2)\\WageDoc(2)\\WageDoc(05042021)\\WageDoc\\WageDoc\\WageDoc.csproj"
+            "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc\\WageDoc.csproj": {
+              "projectPath": "C:\\Users\\Turkikaze\\Desktop\\Xamarin\\WageDoc\\WageDoc\\WageDoc.csproj"
             }
           }
         }
